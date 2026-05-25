@@ -17,7 +17,12 @@ def divide(a: float, b: float) -> float:
 
 
 if __name__ == "__main__":
-    print("Simple Calculator")
+    print("===================================")
+    print("Hello from GitHub Actions CI/CD!")
+    print("This print is coming from app.py")
+    print("===================================")
+
+    print("Simple Calculator Results:")
     print("2 + 3 =", add(2, 3))
     print("10 - 4 =", subtract(10, 4))
     print("5 * 6 =", multiply(5, 6))
